@@ -1,0 +1,10 @@
+**/.vscode/
+
+**/.idea/
+
+**/__pycache__/
+
+docker-python3-flask-ml-app/app/images/*
+
+*.pyc
+

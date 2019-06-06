@@ -1,0 +1,46 @@
+{% include 'header.html' %}
+<div class="alert alert-danger text-center">
+    <h1>TensorFlow 花 手書き認識</h1>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="card shadow rounded">
+            <div class="card-header">
+                花を描いてみてください。
+            </div>
+            <div class="card-body" style="background-color:slategrey;">
+                <div class="canvas-container text-center" style="vertical-align: middle;">
+                    <canvas class="shadow rounded" id="main_canvas" width="300px" height="300px"></canvas>
+                </div>
+            </div>
+            <div class="card-footer text-center">
+                <button type="button" id="img" name="img" onClick="sendDrawnFlowerImage();" value="認識"
+                        class="btn btn-primary">AIに聞いてみる
+                </button>
+                <span style="margin:20px;"></span>
+                <!-- <span id="answer"></span> -->
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sx-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="card shadow rounded">
+            <div class="card-header">
+                AIの推測結果
+            </div>
+            <div class="card-body" style="background-color:slategrey;">
+                <div class="canvas-container text-center" style="vertical-align: middle;">
+                    <div class="result shadow rounded" width="300px" height="300px">
+                        <div class="text-center" style="vertical-align: middle;" id="answer"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer text-center">
+                <button type="button" onClick="clearCanvas();" value="クリア" class="btn btn-danger pull-right">クリア
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'footer.html' %}
