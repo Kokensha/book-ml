@@ -15,4 +15,6 @@
 
 詳しくは、それぞれのフォルダの中身をご確認ください。
 
+Pull Request歓迎！
+
 著者のTwitter：https://twitter.com/kokensha_tech
