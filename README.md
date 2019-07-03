@@ -18,3 +18,20 @@
 Pull Request歓迎！
 
 著者のTwitter：https://twitter.com/kokensha_tech
+
+# 訂正
+
+* ページ108：
+
+一番下のOutputの日本語
+誤：「False 花は薔薇ですね」
+正：「False 花は薔薇ではないですね」
+
+* ページ147、ページ148、ページ231：Pythonプログラムのimportのセクションに下記の一行が追記します（配布しているプログラムの方ではすでに含まれていますので、配布プログラムを利用する場合は、追加不要）。
+
+```Python
+from mpl_toolkits.mplot3d import Axes3D
+```
+
+
+
