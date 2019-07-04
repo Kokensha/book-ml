@@ -43,4 +43,8 @@ from mpl_toolkits.mplot3d import Axes3D
 
 正：image.shape[:2]
 
+# 本書の姉妹プロジェクト
 
+機械学習・深層学習レッスン
+
+https://github.com/Kokensha/machine_learning_deep_learning_lessons
