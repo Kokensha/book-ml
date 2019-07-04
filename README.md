@@ -33,5 +33,8 @@ Pull Request歓迎！
 from mpl_toolkits.mplot3d import Axes3D
 ```
 
+* ページ175：Pythonプログラム （配布しているプログラムの方は正しいプログラムになっております、配布プログラムを利用する場合は、修正不要）。
+誤：x.shape[:2]
+正：image.shape[:2]
 
 
