@@ -31,6 +31,8 @@ python3 app.pyをそのまま実行すると、学習済モデルファイルが
 
 対応方法：270ページからの04-06節のレシピの手順を沿って、まず猫犬の認識用の学習済モデルファイルを作成して、手動で配置してください。
 
+配置場所は book-ml/docker-python3-flask-ml-app/app/chainer_dogscats/ の配下です。
+
 04-06で学習のために使用するデータは、下記のURL(Kaggle)から取得することが可能です（ユーザー登録が必要）。
 
 * https://www.kaggle.com/c/dogs-vs-cats/data
