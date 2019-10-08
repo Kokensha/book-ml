@@ -66,7 +66,9 @@ Pythonプログラム （配布しているプログラムの方は正しいプ�
 
 ## ページ226
 
-図1 scikit-learn MNIST手書きデータのグラフに
+誤：図1 scikit-learn MNIST手書きデータ
+
+正：図1 scikit-learn 手書きデータ
 
 誤：左側データのタイトル　iris.data/データ
 
