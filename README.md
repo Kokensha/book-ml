@@ -76,10 +76,10 @@ Pythonプログラム （配布しているプログラムの方は正しいプ�
 
 # 本書の姉妹プロジェクト
 
-* 機械学習・深層学習レッスン
+## 機械学習・深層学習レッスン
 
 https://github.com/Kokensha/machine_learning_deep_learning_lessons
 
-* 川島のITスキルサロンのRepo
+## 川島のITスキルサロンのRepo
 
 https://github.com/kawashimaken/salon
