@@ -37,6 +37,8 @@ python3 app.pyをそのまま実行すると、学習済モデルファイルが
 
 * https://www.kaggle.com/c/dogs-vs-cats/data
 
+* あるいは、動くバージョンをご参照ください。https://github.com/kawashimaken/docker-python3-flask-ml-app
+
 
 # 訂正
 
