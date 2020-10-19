@@ -58,6 +58,32 @@ Pythonプログラムのimportのセクションに下記の一行が追記し�
 from mpl_toolkits.mplot3d import Axes3D
 ```
 
+## ページ173
+
+新しいバージョンのopenCVを利用する読者に下記のエラーが発生するかもしれません。
+```ValueError: not enough values to unpack (expected 3, got 2)```
+
+
+次のコードのように修正して、正常に実行できます。
+```Python
+import numpy as np
+import cv2
+import matplotlib.pyplot as plt
+ 
+img_bgr = cv2.imread('kawashima01.jpg')
+img_gray = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2GRAY)
+retval,thresh = cv2.threshold(img_gray,88,255,0)
+
+contours, hierarchy = cv2.findContours(thresh,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+
+blank_image = 255 * np.ones((320,320,3), np.uint8)
+result_img = cv2.drawContours(blank_image, contours, -1, (0,0,255), 3)
+ 
+#
+plt.imshow(result_img)
+plt.show()
+```
+
 ## ページ175
 
 Pythonプログラム （配布しているプログラムの方は正しいプログラムになっております、配布プログラムを利用する場合は、修正不要）。
